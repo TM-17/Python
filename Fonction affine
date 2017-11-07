@@ -1,0 +1,9 @@
+a= int (input("Entrez une valeur de a:"))
+b= int (input("Entrez une valeur de b:"))
+c=0
+for x in range(0,10) :
+    c=a*x+b
+    x=x+1
+    print ( a,"*",x,"+",b,"=",c)
+            
+            
