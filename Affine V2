@@ -1,21 +1,21 @@
 #Definition des entrées
-def Entrée():
+def entrée():
     a= int (input("Entrez une valeur de a:"))
     b= int (input("Entrez une valeur de b:"))
     return a,b
 
 #Calcul fonction affine (y=ax+b)
 #x réel représente un antécédent, a entier représente le coeff directeur, b entier représente l'ordonée à l'origine, y entier réel est l'image de x
-def Affine (a,b):
+def affine (a,b):
         y=a*x+b
         return y
 
 #Sortie : Affiche y réel 
-def Sortie (y):
+def sortie (y):
     print (y)
 
 #Excecution du programme
-a,b= Entrée()
+a,b= entrée()
 for x in range (0,10):
-    y= Affine(a,b)
-    Sortie(y)
+    y= affine(a,b)
+    sortie(y)
