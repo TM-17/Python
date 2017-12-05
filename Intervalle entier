@@ -1,0 +1,20 @@
+#cette fonction permet d'insérer les variables a et b et de mettre à 0 la variable y
+def entree():
+    a = int(input("Entrer une valeur de a:"))
+    b = int(input("Entrer une valeur b:"))
+    return a,b
+a,b=entree()
+#entrée:soit [a;b]un intervalle de nombre 
+#sortie:total de la sommes des multiples de 5 présent dans l'intervalle initiale
+#cette fonction permet d'insérer les variables a et b et de mettre à 0 la variable y
+def métier(a,b):
+    total=0
+    while (a<b):
+        y=a%5
+        if y==0 :
+            total=total+a
+        a=a+1
+    return total
+total=métier(a,b)
+#cette fonction affiche la sortie : total
+print (total)
