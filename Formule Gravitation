@@ -1,0 +1,22 @@
+#Entrées
+d1=int(input("Entrez la valeur de d1:"))
+d2=int(input("Entrez la valeur de d2:"))
+n=0
+F=0
+
+# Sortie
+def affiche(x):
+    print ("F(",d1,")=",x,"N")
+    
+    
+    
+#Calcul
+while d2-d1>0 :
+    F=(6.67*10**-11)*((10000*10000)/d1**2)
+    affiche(F)
+    d1=d1*2
+    F=0
+    n=n+1
+
+
+
