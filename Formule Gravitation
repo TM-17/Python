@@ -1,7 +1,6 @@
 #Entrées
 d1=int(input("Entrez la valeur de d1:"))
 d2=int(input("Entrez la valeur de d2:"))
-n=0
 F=0
 
 # Sortie
@@ -16,7 +15,6 @@ while d2-d1>0 :
     affiche(F)
     d1=d1*2
     F=0
-    n=n+1
 
 
 
