@@ -1,0 +1,7 @@
+tableau = ["Severine","Gregory","Ethan","Erin"]
+str=""
+for i in range (0,len(tableau)):
+    taille= len (tableau[i])
+    str= str+tableau[i]+":{}".format(taille) 
+print (str)
+
